@@ -1,0 +1,34 @@
+Name: Controller Tags
+Type: FolderType
+Children:
+- Name: DINT_1
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "DINT_1"
+- Name: INT_3
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "INT_3"
+- Name: timer2
+  Type: TIMER
+  DataType: TIMER
+  Children:
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "timer2.ACC"
